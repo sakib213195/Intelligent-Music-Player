@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Intelligent Music Player</string>
+
+    <string name="DetectFacialEmotion">Detect Facial Emotion</string>
+
+    <string name="YourLocation">Your Location</string>
+
+    <string name="Playlist">Playlist</string>
+
+</resources>
