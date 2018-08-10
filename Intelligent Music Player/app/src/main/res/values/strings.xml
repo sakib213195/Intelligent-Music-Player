@@ -1,8 +1,11 @@
 <resources>
-    <string name="app_name">IntelligentPlayer</string>
-    <string name="camera">Camera</string>
-    <string name="location">Location</string>
-    <string name="playlists">Playlists</string>
 
+    <string name="app_name">Intelligent Music Player</string>
+
+    <string name="DetectFacialEmotion">Detect Facial Emotion</string>
+
+    <string name="YourLocation">Music Player</string>
+
+    <string name="Playlist">Playlist</string>
 
 </resources>

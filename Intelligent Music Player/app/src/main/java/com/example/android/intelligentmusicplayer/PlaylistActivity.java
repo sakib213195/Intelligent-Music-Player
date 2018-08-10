@@ -1,4 +1,4 @@
-package com.example.android.intelligentplayer;
+package com.example.android.intelligentmusicplayer;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
