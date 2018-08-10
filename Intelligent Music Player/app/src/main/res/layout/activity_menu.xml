@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+
+    tools:context="com.example.android.intelligentplayer.Menu">
+
+
+
+    <TextView
+        android:id="@+id/DetectFacialEmotion"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="Facial Emotion"
+        android:background="@android:color/black"
+        />
+
+        <TextView
+            android:id="@+id/Playlist"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="Playlist"
+            android:background="@android:color/black"
+            />
+
+
+
+    </LinearLayout>

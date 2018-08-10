@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.intelligentmusicplayer">
-
-    <uses-feature android:name="android.hardware.camera2"></uses-feature>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
-
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.VIBRATE" />
+    package="com.example.android.intelligentplayer">
 
     <application
         android:allowBackup="true"
@@ -22,8 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FaceDetectionActivity"
-            android:label="@string/DetectFacialEmotion"
+
+
+        <activity android:name=".Menu"
+            android:label="Menu"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -35,28 +31,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
+
         </activity>
         <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES" android:value="barcode"/>
 
 
-        <activity android:name=".PlaylistActivity"
-            android:label="@string/Playlist"
-            android:parentActivityName=".MainActivity">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity"/>
-            />
-        </activity>
 
-        <activity android:name=".LoactionActivity"
-        android:label="@string/YourLocation"
-        android:parentActivityName=".MainActivity">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity"/>
-        </activity>
-
-
+        <activity android:name=".FaceDetectionActivity" />
+        <activity android:name=".PlaylistActivity"></activity>
     </application>
 
 </manifest>
