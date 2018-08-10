@@ -42,7 +42,7 @@ public class LoactionActivity extends AppCompatActivity implements OnClickListen
 
 
     // Media Player
-    mp = MediaPlayer.create(this, R.raw.linkinpark);
+        mp = MediaPlayer.create(this, R.raw.a_sky_full_of_stars);
         mp.setLooping(true);
         mp.seekTo(0);
         mp.setVolume(0.5f, 0.5f);
